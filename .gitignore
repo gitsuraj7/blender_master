@@ -1,19 +1,38 @@
-# Blender backup files
-*.blend[0-9]*
-*.blend1
-*.blend2
+# Blender
+blender-4.2.0-windows-x64/
+*.msi
+
+# Large Archives
+*.zip
+*.tar.gz
+
+# Media (Exclude large videos/audio)
+*.mp4
+*.m4a
+*.mkv
+*.mov
 
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project Outputs
+output/
+*.log
 
 # OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
-
-# Large binaries (exclude from repo as requested)
-blender-4.2.0-windows-x64/
-*.msi
-*.zip
-*.exe
