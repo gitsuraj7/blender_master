@@ -1,0 +1,19 @@
+# Blender backup files
+*.blend[0-9]*
+*.blend1
+*.blend2
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Large binaries (exclude from repo as requested)
+blender-4.2.0-windows-x64/
+*.msi
+*.zip
+*.exe
